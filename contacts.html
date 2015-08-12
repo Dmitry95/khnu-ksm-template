@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html class="fuelux">
+<head lang="uk">
+    <title>Current page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>   
+</head>
+<body>
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- /Facebook -->
+    <div class="head">
+    <nav class="container-fluid navbar navbar-default navbar-static-top navbar-fixed-top navbar-inverse" role="navigation" id="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-2 col-lg-2">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#NavBarCollapse_2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="index.html"> <img src="images/logo3.png"> </a>
+            </div>
+            </div>
+
+            <div class="col-md-10 col-lg-10">
+            <div class="collapse navbar-collapse" id="NavBarCollapse_2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Головна</a>
+                    </li>
+                    <li>
+                        <a href="blog_home.html">Блог</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Кафедра
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Про кафедру</li>
+                            <li>
+                                <a href="about_lectors.html">Викладачі кафедри</a>
+                            </li>
+                            <li>
+                                <a href="#">Дисципліни кафедри</a>
+                            </li>
+                            <li>
+                                <a href="#">Наукова діяльність</a>
+                            </li>
+                            <li>
+                                <a href="#">Нагороди кафедри</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Додатково</li>
+                            <li>
+                                <a href="#">Навчальні плани</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Студенту
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Навчальний процес</li>
+                            <li>
+                                <a href="#">Практика (мікроконтролери)</a>
+                            </li>
+                            <li>
+                                <a href="#">Розклад занять та консультацій викладачів</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Загальне</li>
+                            <li>
+                                <a href="#">Болонська система</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Додатково</li>
+                            <li>
+                                <a href="#">Android. Керування голосом</a>
+                            </li>
+
+                            
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Абітурієнту
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Інформація</li>
+                            <li>
+                                <a href="#">Характеристика спеціальності</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Бібліотека
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Основне</li>
+                            <li>
+                                <a href="#">Програми</a>
+                            </li>
+                            <li>
+                                <a href="#">Література</a>
+                            </li>
+                            <li>
+                                <a href="#">Методичні вказівки</a>
+                            </li>
+                            <li>
+                                <a href="#">Лабораторні роботи</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакти</a>
+                    </li>
+                    <li class="">
+                    <form class="nav-search input-group navbar-form navbar-right header-search" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Пошук...">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+                      </div>
+                    </form>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img class="user-avatar-nav" src="images/Icon-user.png">
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                             <li role="presentation" class="dropdown-header">Ви увійшли як Username</li>
+                            <li>
+                                <a href="#">Особистий кабінет</a>
+                            </li>
+                            <li>
+                                <a href="#">Редагувати дані</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <a href="#">Вийти</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="container wrapper">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="page-header">Зворотній зв'язок
+                    <small>Наші контактні дані</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Головна</a></li>
+                    <li class="active">Зворотній зв'язок</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row thumbnail page-content contacts-page clear-margin">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9">
+                <h4>Адреса:</h4>
+                <p>29016, м.Хмельницький, вул. Кам’янецька 112, Хмельницький національний університет, 1-й учбовий корпус, ауд. 1-106</p>
+                <h4>Поштова адреса:</h4>
+                <p>Хмельницький національний університет кафедра комп'ютерних систем та мереж, вул. Інститутська 11 м.Хмельницький 29016 УКРАЇНА﻿</p>
+                <h4>Контактні телефони:</h4>
+                <p>(0382) 72-76-84Б</p>
+                <p>12-95 (внутрішній телефон)</p>
+                <h4>Електрона пошта:</h4>
+                <p>ksm.khnu@gmail.com</p>
+                <p>ksm@khnu.km.ua</p>
+                <h4>Посилання:</h4>
+                <div class="social-links-bar">
+                    <a class="social-link" href="https://plus.google.com/100534378521830550230/about" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    <a class="social-link" href="https://www.facebook.com/khnuksm" target="_blank"><i class="fa fa-facebook-square"></i>
+                    <a class="social-link" href="https://twitter.com/ksm_khnu" target="_blank"><i class="fa fa-twitter-square"></i></a>                 
+                    <a class="social-link" href="https://www.youtube.com/channel/UCl4U3G90mB4lqu9_Ao6s2QA" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a class="social-link" href="http://vk.com/club95427377" target="_blank"><i class="fa fa-vk"></i></a>
+                </div>
+                <div class="row cont-us-button">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modal-contact-us">Відправити повідомлення</button>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+                <div class="row social-widget">
+                        <div class="col-xs-12 cos-sm-12 col-md-12 col-md-12">
+                            <div class="g-page" data-width="300" data-href="https://plus.google.com/100534378521830550230" data-layout="landscape" data-rel="publisher"></div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="row social-widgets">
+                <div class="col-xs-12 cos-sm-6 col-md-4 col-md-3">
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12 cos-sm-12 col-md-12 col-md-12">
+                            <div class="fb-page" data-href="https://www.facebook.com/khnuksm" data-width="245" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/khnuksm"><a href="https://www.facebook.com/khnuksm">Кафедра комп&#039;ютерних систем та мереж ХНУ</a></blockquote></div></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12 cos-sm-12 col-md-12 col-md-12">
+                            <div>
+                            <a class="twitter-timeline" href="https://twitter.com/ksm_khnu" data-widget-id="612887660814835712">Твіти від користувача(ки) @ksm_khnu</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12 cos-sm-12 col-md-12 col-md-12">
+                            <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+                            <!-- VK Widget -->
+                            <div id="vk_groups"></div>
+                            <script type="text/javascript">
+                            VK.Widgets.Group("vk_groups", {mode: 0, width: "245", height: "100", color1: 'FFFFFF', color2: '333', color3: 'B6B6B6'}, 95427377);
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <iframe class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1298.0811652363452!2d26.964526463821795!3d49.40583577847999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47320688778ad6af%3A0x47638e7e4a9a610!2z0JrQsNC8J9GP0L3QtdGG0YzQutCwINCy0YPQuy4sIDExMiwg0KXQvNC10LvRjNC90LjRhtGM0LrQuNC5INCd0LDRhtGW0L7QvdCw0LvRjNC90LjQuSDQo9C90ZbQstC10YDRgdC40YLQtdGCLCDQpdC80LXQu9GM0L3QuNGG0YzQutC40LksINCl0LzQtdC70YzQvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1433864284504" width="600" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal-contact-us" tobindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title"><span class="glyphicon glyphicon-send"> </span> Форма зворотнього зв'язку</h3>
+                </div>
+                <div class="modal-body modal-feedback">
+                <form class="form-horizontal" id="myform" role="form">
+                    <div class="row">
+                        <div class="col-xs-5 col-xs-offset-1 has-feedback form-groupp">
+                            <input type="text" required="required" id="first-name" class="form-control important-input" placeholder="Ваше ім'я *"><span class="glyphicon form-control-feedback"></span>
+                        </div>
+                        <div class="col-xs-5 has-feedback form-groupp">
+                            <input type="text" required="required" id="last-name" class="form-control important-input" placeholder="Ваше прізвище *"><span class="glyphicon form-control-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 has-feedback form-groupp">
+                            <input type="email" required="required" id="email" class="form-control important-input" placeholder="Контактний E-mail *"><span class="glyphicon form-control-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1  has-feedback form-groupp">
+                            <input type="text"  class="form-control warning-input" placeholder="Контактний телефон">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 has-feedback form-groupp">
+                            <input type="text" required="required" id="subject" class="form-control important-input" placeholder="Тема повідомлення *"><span class="glyphicon form-control-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 has-feedback form-groupp">
+                            <textarea rows="8" required="required" id="message" type="text" class="form-control important-input" placeholder="Ваше повідомлення *"></textarea><span class="glyphicon form-control-feedback"></span>
+                        </div>
+                    </div>                                    
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 ">                    
+                            <button type="submit" id="send-feedback" class="btn btn-default btn-md">Відправити</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <div class="modal" id="modal-success-message" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-success">
+                <div class="alert alert-success" id="success-alert">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title"><span class="glyphicon glyphicon-send"> </span>  Дякуємо!</h3>
+                    <div>Ваше повідомлення було успішно відправлене.</div>
+                </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5 col-md-3 col-lg-4">
+            <div class="icon-bar-footer">
+                    <a class="social-link-footer" href="https://plus.google.com/100534378521830550230/about" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    <a class="social-link-footer" href="https://www.facebook.com/khnuksm" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a class="social-link-footer" href="https://twitter.com/ksm_khnu" target="_blank"><i class="fa fa-twitter-square"></i></a>             
+                    <a class="social-link-footer" href="https://www.youtube.com/channel/UCl4U3G90mB4lqu9_Ao6s2QA" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a class="social-link-footer" href="http://vk.com/club95427377" target="_blank"><i class="fa fa-vk"></i></a>    
+            </div>
+            </div>
+            <div class="col-xs- col-sm-7 col-md-9 col-lg-4">
+            <p><a href="index.html">Головна</a> | <a href="index.html">Про кафедру</a> | <a href="index.html">Контакти</a></p>
+            <p>© Кафедра комп'ютерних систем та мереж 2015.</p>
+          </div>
+        </div>
+    </footer>
+    <!-- Google -->
+    <script src="https://apis.google.com/js/platform.js" async defer>{lang: 'uk'}</script>
+    <!-- Share icons -->
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MatchHeight -->
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <!-- Own scripts -->
+    <script type="text/javascript" src="js/scripts.js"></script> 
+</body>
+</html>

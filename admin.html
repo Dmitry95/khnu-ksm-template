@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="fuelux">
+<head lang="uk">
+    <title>Current page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>   
+</head>
+<body>
+    <div class="container wrapper"> 
+        <div class="row clear-margin">
+            <div class="col-xs-12 col-sm-10 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-1 col-md-offset-3 col-lg-offset-3 thumbnail ">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <h3>Вхід в панель адміністратора</h3>                       
+                    </div>                     
+                </div>
+                 <hr> 
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <div class="alert alert-danger fade in">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <h4>Помилка</h4>
+                    <p>Введено невірний логін або пароль.</p>
+                </div>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-1 ">
+                          <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" class="form-control important-input" required="required" name="login" placeholder="Логін"><span class="glyphicon form-control-feedback"></span>
+                                </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-1 ">
+                          <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-ok"></i></span>
+                                    <input type="password" class="form-control important-input" required="required" name="password" placeholder="Пароль"><span class="glyphicon form-control-feedback"></span>
+                                </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> Запам'ятати мене
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-1 col-sm-center">
+                          <button type="submit" id="login-user" class="btn btn-lg btn-primary btn-block">Увійти</button>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <div class="col-sm-offset-1 col-sm-10">
+                          <label><a href="restore_pass.html">Забули пароль?</a></label>                        
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Share icons -->
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MatchHeight -->
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <!-- Own scripts -->
+    <script type="text/javascript" src="js/scripts.js"></script> 
+</body>
+</html>

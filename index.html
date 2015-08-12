@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="fuelux">
+<head lang="uk">
+    <title>Current page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>   
+</head>
+<body>
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- /Facebook -->
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- Share icons -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5579e864056219a6" async="async"></script>
+    <div class="head">
+    <nav class="container-fluid navbar navbar-default navbar-static-top navbar-fixed-top navbar-inverse" role="navigation" id="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-2 col-lg-2">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#NavBarCollapse_2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="index.html"> <img src="images/logo3.png"> </a>
+            </div>
+            </div>
+
+            <div class="col-md-10 col-lg-10">
+            <div class="collapse navbar-collapse" id="NavBarCollapse_2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Головна</a>
+                    </li>
+                    <li>
+                        <a href="blog_home.html">Блог</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Кафедра
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Про кафедру</li>
+                            <li>
+                                <a href="about_lectors.html">Викладачі кафедри</a>
+                            </li>
+                            <li>
+                                <a href="#">Дисципліни кафедри</a>
+                            </li>
+                            <li>
+                                <a href="#">Наукова діяльність</a>
+                            </li>
+                            <li>
+                                <a href="#">Нагороди кафедри</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Додатково</li>
+                            <li>
+                                <a href="#">Навчальні плани</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Студенту
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Навчальний процес</li>
+                            <li>
+                                <a href="#">Практика (мікроконтролери)</a>
+                            </li>
+                            <li>
+                                <a href="#">Розклад занять та консультацій викладачів</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Загальне</li>
+                            <li>
+                                <a href="#">Болонська система</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Додатково</li>
+                            <li>
+                                <a href="#">Android. Керування голосом</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Абітурієнту
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Інформація</li>
+                            <li>
+                                <a href="#">Характеристика спеціальності</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Бібліотека
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Основне</li>
+                            <li>
+                                <a href="#">Програми</a>
+                            </li>
+                            <li>
+                                <a href="#">Література</a>
+                            </li>
+                            <li>
+                                <a href="#">Методичні вказівки</a>
+                            </li>
+                            <li>
+                                <a href="#">Лабораторні роботи</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакти</a>
+                    </li>
+                    <li>
+                    <form class="nav-search input-group navbar-form navbar-right header-search" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Пошук...">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+                      </div>
+                    </form>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img class="user-avatar-nav" src="images/Icon-user.png">
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                             <li role="presentation" class="dropdown-header">Ви увійшли як Username</li>
+                            <li>
+                                <a href="#">Особистий кабінет</a>
+                            </li>
+                            <li>
+                                <a href="#">Редагувати дані</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <a href="#">Вийти</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    </div>
+
+    <header id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="fill" style="background-image:url('images/example2.jpg');">
+          <div class="carousel-caption">
+            <h1>Перший слайд</h1>
+            <p>Опис першого слайда</p>
+          </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="fill" style="background-image:url('images/example6.jpg');">
+          <div class="carousel-caption">
+            <h1>Другий слайд</h1>
+            <p>Опис другого слайда</p>
+          </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="fill" style="background-image:url('images/example4.jpg');">
+          <div class="carousel-caption">
+            <h1>Третій слайд</h1>
+            <p>Опис третього слайда</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </header>
+
+    <div class="container home-page-container">
+        <div class="row jumbotron jumbotron-white" >
+            <div class="col-lg-12">
+                <h1 class="page-header jumbotron-header">
+                    Вітаємо на сайті кафедри КСМ ХНУ
+                </h1>
+            </div>
+            <div class="col-md-7">
+                <p class="fullwidth-align jumbotron-paragraph">Кафедра комп'ютерних систем та мереж заснована у 1991 році.</p>
+                <p class="fullwidth-align jumbotron-paragraph">Кафедра входить до складу Інституту телекомунікаційних та комп'ютерних систем Хмельницького національного університету. З червня 2005 року кафедру очолює доктор технічних наук, професор, академік міжнародної академії інформатизації М'ясіщев О.А. На сьогоднішній день колектив кафедри стовітсотково складається з викладачів з науковими ступенями, які є висококваліфікованими спеціалістами в галузі проектування комп'ютерних мереж, цифрових обчислювальних пристроїв та систем, мережних інформаційних технологій, захисту інформації. Лабораторна база кафедри є провідною в університеті і включає в себе більше ста одиниць сучасного комп'ютерного та мережного устаткування.</p>
+                <a class="btn btn-default btn-lg button-mg-bottom" href="#">Читати детальніше <i class="fa fa-angle-right"></i></a>
+            </div>
+            <div class="col-md-5">
+                <div class="thumbnail">
+                  <img class="img-responsive" src="images/ksm_team.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="row panel panel-default last-news">
+            <div class="col-lg-12">
+                <h2 class="page-header">Останні новини кафедри</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default short-last-news">
+                    <div class="panel-heading">
+                        <h4 class="last-news-heading"><i class="glyphicon glyphicon-pushpin"></i> Умови вступу на спеціальності факультету "ФПКТС" у 2015р.</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>У 2015 році, відповідно до Умов прийому до вищих навчальних закладів України, Хмельницький національний університет проводить набір на 1-ий курс навчання та приймає сертифікати Українського центру оцінювання якості освіти (ЗНО) на денну та заочну форми навчання для напряму підготовки "Комп’ютерна інженерія" з таких дисциплін...</p>
+                        <a class="btn btn-default" href="blog_post.html">Читати далі <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default short-last-news">
+                    <div class="panel-heading">
+                        <h4 class="last-news-heading"><i class="glyphicon glyphicon-pushpin"></i> Студентське дозвілля</h4>
+                    </div>
+                    <img class="img-short-news img-responsive img-hover" src="images/example2.jpg" alt="">
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt  Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a class="btn btn-default" href="blog_post.html">Читати далі <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default short-last-news">
+                    <div class="panel-heading">
+                        <h4 class="last-news-heading"><i class="glyphicon glyphicon-pushpin"></i> Досягнення студентів у спорті</h4>
+                    </div>
+                    <img class="img-short-news img-responsive img-hover" src="images/example5.jpg" alt="">
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a class="btn btn-default" href="blog_post.html">Читати далі <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                <ul class="pager">
+                  <li class="previous disabled"><a href="#">&larr; Новіше</a></li>
+                  <li class="next"><a href="#">Старіше &rarr;</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row jumbotron jumbotron-white">
+            <div class="col-lg-12">
+                <h2 class="page-header jumbotron-header">
+                    Що таке комп'ютерна інженерія?
+                </h2>
+            </div>
+            <div class="col-md-5">
+                <img class="img-responsive" src="images/ki-no-bg.png" alt="">
+            </div>
+            <div class="col-md-7">
+                <p class="fullwidth-align jumbotron-paragraph">До задач, які вирішують фахівці у галузі комп’ютерної інженерії відносять:</p>
+                <ul class="jumbotron-paragraph">
+                    <li>розроблення прикладного та системного програмного забезпечення
+                    </li>
+                    <li>розроблення програмного забезпечення для вбудованих комп’ютерних систем;</li>
+                    <li>проектування мікропроцесорних пристроїв;</li>
+                    <li>проектування, налагодження та обслуговування комп’ютерних мереж;</li>
+                    <li>проектування операційних систем та інше.</li>
+
+                </ul>
+                <p class="fullwidth-align jumbotron-paragraph">Комп’ютерна інженерія (Computer Engineering) – це напрям, який об’єднує в собі частини електротехніки, комп’ютерних наук та програмної інженерії необхідні для проектування та розроблення комп’ютерних систем. Фахівці з комп’ютерної інженерії приймають участь у багатьох аспектах проектування апаратно-програмних систем, від проектування мікропроцесорів, персональних та супер комп’ютерів до проектування цифрових схем. Ця галузь інженерії зосереджена не лише на тому як функціонують комп’ютери самі по собі, але й включає усі аспекти інтеграції комп’ютерних систем у різні галузі, від технологічних процесів на виробництві, електростанціях та ін. до літальних космічних апаратів.</p>
+                <a class="btn btn-default btn-lg button-mg-bottom" href="#">Читати детальніше <i class="fa fa-angle-right"></i></a>
+            </div>            
+        </div>
+      </div>        
+
+    <footer id="footer" class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5 col-md-3 col-lg-4">
+            <div class="icon-bar-footer">
+                    <a class="social-link-footer" href="https://plus.google.com/100534378521830550230/about" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    <a class="social-link-footer" href="https://www.facebook.com/khnuksm" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a class="social-link-footer" href="https://twitter.com/ksm_khnu" target="_blank"><i class="fa fa-twitter-square"></i></a>             
+                    <a class="social-link-footer" href="https://www.youtube.com/channel/UCl4U3G90mB4lqu9_Ao6s2QA" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a class="social-link-footer" href="http://vk.com/club95427377" target="_blank"><i class="fa fa-vk"></i></a>    
+            </div>
+            </div>
+            <div class="col-xs- col-sm-7 col-md-9 col-lg-4">
+            <p><a href="index.html">Головна</a> | <a href="index.html">Про кафедру</a> | <a href="index.html">Контакти</a></p>
+            <p>© Кафедра комп'ютерних систем та мереж 2015.</p>
+          </div>
+        </div>
+    </footer>
+
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MatchHeight -->
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <!-- Own scripts -->
+    <script type="text/javascript" src="js/scripts.js"></script> 
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel-example-generic').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+</body>
+</html>

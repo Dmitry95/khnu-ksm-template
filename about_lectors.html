@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html class="fuelux">
+<head lang="uk">
+    <title>Current page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>   
+</head>
+<body>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- Share icons -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5579e864056219a6" async="async"></script>
+    <div class="head">
+    <nav class="container-fluid navbar navbar-default navbar-static-top navbar-fixed-top navbar-inverse" role="navigation" id="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-2 col-lg-2">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#NavBarCollapse_2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="index.html"> <img src="images/logo3.png"> </a>
+            </div>
+            </div>
+
+            <div class="col-md-10 col-lg-10">
+            <div class="collapse navbar-collapse" id="NavBarCollapse_2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Головна</a>
+                    </li>
+                    <li>
+                        <a href="blog_home.html">Блог</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Кафедра
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Про кафедру</li>
+                            <li>
+                                <a href="about_lectors.html">Викладачі кафедри</a>
+                            </li>
+                            <li>
+                                <a href="#">Дисципліни кафедри</a>
+                            </li>
+                            <li>
+                                <a href="#">Наукова діяльність</a>
+                            </li>
+                            <li>
+                                <a href="#">Нагороди кафедри</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Додатково</li>
+                            <li>
+                                <a href="#">Навчальні плани</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Студенту
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Навчальний процес</li>
+                            <li>
+                                <a href="#">Практика (мікроконтролери)</a>
+                            </li>
+                            <li>
+                                <a href="#">Розклад занять та консультацій викладачів</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Загальне</li>
+                            <li>
+                                <a href="#">Болонська система</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                             <li role="presentation" class="dropdown-header">Додатково</li>
+                            <li>
+                                <a href="#">Android. Керування голосом</a>
+                            </li>
+
+                            
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Абітурієнту
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Інформація</li>
+                            <li>
+                                <a href="#">Характеристика спеціальності</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Бібліотека
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header">Основне</li>
+                            <li>
+                                <a href="#">Програми</a>
+                            </li>
+                            <li>
+                                <a href="#">Література</a>
+                            </li>
+                            <li>
+                                <a href="#">Методичні вказівки</a>
+                            </li>
+                            <li>
+                                <a href="#">Лабораторні роботи</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакти</a>
+                    </li>
+                    <li class="">
+                    <form class="nav-search input-group navbar-form navbar-right header-search" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Пошук...">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+                      </div>
+                    </form>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img class="user-avatar-nav" src="images/Icon-user.png">
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                             <li role="presentation" class="dropdown-header">Ви увійшли як Username</li>
+                            <li>
+                                <a href="#">Особистий кабінет</a>
+                            </li>
+                            <li>
+                                <a href="#">Редагувати дані</a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <a href="#">Вийти</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="container lectors-page">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Викладацький склад Кафедри комп'ютерних систем та мереж</h2>
+            </div>
+            <div class="row lector-row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> М'ясіщев Олександр Анатолійович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/ms.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.</p>
+                            <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Красильников Сергій Романович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/kr.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". </p>
+                            <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-2">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row lector-row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Огнєвий Олександр Вікторович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/ogn.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.</p>
+                            <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon-user"> </span> Хмельницький Юрій Владиславович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/khm.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.</p>
+                            <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row lector-row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Джулій Володимир Миколайович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/dj.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем.У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.
+                            </p>
+                            <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Чешун Віктор Миколайович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/ch.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.</p>
+                            <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row lector-row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Муляр Ігор Володимирович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/mu.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lector-tab">
+                <div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12 lector">                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-short-header">
+                            <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Бойчук Вадим Олександрович</h3>
+                            <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                            <div class="image-border">
+                                <img src="images/boy.jpg" alt="..." />
+                            </div>
+                            <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації.</p>
+                            <div class="clr"></div>
+                            <div class="about-lector-list">
+                                <h3>Сфера наукової діяльності:</h3>
+                                <ul>
+                                    <li>Комп'ютерні мережі.</li>
+                                    <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                                </ul>
+                            </div>
+                            <div class="about-lector-list">
+                                <h3>Напрямок наукової роботи:</h3>
+                                <ul>
+                                    <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                                    <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lector-button">                    
+                            <button type="button" class="btn btn-default button-fl-right" data-toggle="modal" data-target="#modal-1">Детальніше...</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>                 
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-1" tobindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> М'ясіщев Олександр Анатолійович</h3>
+                    <small>д.т.н., професор, завідуючий кафедри КСМ.</small>
+                </div>
+                <div class="modal-body about-lector-content">
+                    <div class="image-border">
+                        <img src="images/ms.jpg"   alt="..." >
+                    </div>
+                    <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.</p>
+                    <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+
+                    <div class="about-lector-list">
+                        <h3>Сфера наукової діяльності:</h3>
+                        <ul>
+                            <li>Комп'ютерні мережі.</li>
+                            <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                        </ul>
+                    </div>
+                    <div class="about-lector-list">
+                        <h3>Напрямок наукової роботи:</h3>
+                        <ul>
+                            <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                            <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                        </ul>
+                    </div>
+                    <div class="about-lector-list">
+                        <h3>Основні предмети:</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="lector-1-subjects" class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="glyphicon glyphicon-hand-right"> </span>
+                                                <a href="#collapse-1-1" data-parent="#lector-1-subjects" data-toggle="collapse">Комп'ютерні мережі</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-1-1" class="panel-collapse collapse ">
+                                            <div class="panel-body">
+                                                <p>
+                                                    Інфо про предмет.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="glyphicon glyphicon-hand-right"> </span>
+                                                <a href="#collapse-1-2" data-parent="#lector-1-subjects" data-toggle="collapse">Теорія проектування комп'ютерних мереж і систем.</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-1-2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>Основна увага у даній дисципліні приділяється вивченню функціонування сучасних комп'ютерних мережних пристроїв і створенню мереж на основі канального і мережного рівня моделі OSI. Дається поглиблене уявлення про пристрій, роботу і програмне забезпечення керованих комутаторів 2-го і 3-го рівнів комутації. Вивчаються додаткові функції керованих комутаторів, зокрема віртуальні мережі, керування трафиком, фільтрація трафика, приорітизація трафика, агрегування каналу.</p>
+
+                                                <p>Докладно в дисципліні розглядаються принципи маршрутизації, протоколи маршрутизації, реалізація міжмережної взаємодії засобами TCP/IP. На практичних заняттях проводяться настроювання маршрутизуючого комутатора фірми D-Link для створення об'єднаної мережі з маршрутизацією без використання і з використанням масок. Розглядаються питання статичної і динамічної маршрутизації. Теоретично вивчаються дистанційно-векторний протокол RIP і протокол стану зв'язків OSPF динамічної маршрутизації. Практично на лабораторних роботах будуються мережі з надлишковими зв'язками, таблиці маршрутизації, для яких будуються динамічно і досліджуються їхні перебудови при видаленні довільних зв'язків. Вивчаються функції маршрутизатора на рівнях інтерфейсів, мережного протоколу, протоколів маршрутизації. На прикладі маршрутизатора CISCO 2600 ведучої американської фірми в галузі телекомунікації вивчається програмне забезпечення і його настроювання для функціонування об'єднаної мережі. Вивчаються засоби керування і моніторингу комп'ютерними мережами на базі протоколу SNMP. Практично за допомогою пакета MRTG і протоколу SNMP графічно досліджується завантаження інтерфейсів комунікаційних пристроїв. Вивчаються питання установки в мережі і настроювання проксі сервера SQUID для забезпечення виходу мережі організації в мережу Internet. Розглядаються питання побудови доменної системи імен (DNS) у глобальній мережі. Вивчається механізм роботи системи DNS, питання побудови і настроювання основного, допоміжного серверу і серверу кешування DNS.</p>
+
+                                                <p>Після вивчення даної дисципліни разом з дисципліною "комп'ютерні мережі" фахівець у стані проектувати й адмініструвати як локальні так і складені мережі рівня масштабу підприємства. Одержує практичні знання для організації доступу мережі рівня підприємства в мережу Internet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="glyphicon glyphicon-hand-right"> </span>
+                                                <a href="#collapse-1-3" data-parent="#lector-1-subjects" data-toggle="collapse">Високопродуктивні обчислювальні системи</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-1-3" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>
+                                                    Інфо про предмет.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-lector-list">
+                        <h3>Останні публікації:</h3>
+                        <ul>
+                            <li>Мясищев А.А. - Сопоставление производительностей GPU Tesla C2075, GeForce 480GTX с 6-и ядерным CPU AMD при решении систем линейных уравнений, 2012г.</li>
+                            <li>О.А. Мясіщев, А.В.Джулій, Показники надійності захисту інформації у випадку системи з кінцевим числом діалогових каналів // ?Вимірювальна та обчислювальна техніка в технологічних процесах “, №2 (36), 2010. – Хмельницький: ХНУ, 2011. – с.118-124 </li>
+                            <li>Мясіщев О.А., Джулій А.В. Моделі оцінки захищеності інформації програмно - апаратною системою захисту / О.А. Мясіщев, А.В. Джулій // Зб. наук. праць Військового інституту Київського НУ ім. 
+  Тараса Шевченко. – К.: ВІКНУ, 2010. – Вип. №27. – С. 130–135. </li>
+                            <li>Мясищев А.А. - Сопоставление производительностей GPU Tesla C2075, GeForce 480GTX с 6-и ядерным CPU AMD при решении систем линейных уравнений, 2012г.</li>
+                            <li>Мясищев А.А. - Сопоставление производительностей GPU и CPU для матричного умножения с двойной точностью, 2012г. </li>
+                            <li>Мясищев А.А. - Оценка производительности GPU NVIDIA CUDA при решении задач матричного умножения, 2012г.</li>
+                            <li>Мясищев А.А. - Оценка целесообразности использования видеокарты NVIDIA по сравнению с 6-и ядерным процессором AMD для матричного умножения, 2012г.</li>
+                            <li>Мясищев А.А. - Об эффективности использования 4-х и 6-и ядерных процессоров Intel и AMD для задач матричного умножения, 2011г.</li>
+                            <li>Мясищев А.А. - Достижение наибольшей производительности перемножения матриц на системах с многоядерными процессорами, 2009г. </li>
+                            <li>Мясищев А.А. - О практическом достижении наибольшей производительности при матричном перемножении для вычислительных систем на базе многоядерных процессоров, 2009г.</li>
+                            <li>Мясищев А.А. - Анализ целесообразности использования многоядерных процессоров для решения параллельных задач на примере матричного умножения, 2009г.</li>
+                            <li>Мясищев А.А. - Оптимизация матричного умножения за счет использования библиотек ScaLAPACK для систем с многоядерными процессорами, 2000г. </li>
+                            <li>Мясищев А.А. - О практическом использовании микроконтроллеров AVR.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <div class="modal fade" id="modal-2" tobindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title"><span class="glyphicon glyphicon glyphicon-user"> </span> Красильников Сергій Романович</h3>
+                    <small>к.т.н., доцент кафедри КСМ.</small>
+                </div>
+                <div class="modal-body about-lector-content">
+                    <div class="image-border">
+                        <img src="images/kr.jpg"   alt="..." >
+                    </div>
+                    <p>У 1979 році закінчив Тульський політехнічний інститут по спеціальності "Виробництво корпусів". У 1982 році отримав звання кандидата технічних наук, захистивши кандидатську дисертацію за темою "Компьютерное моделирование задач класического течения". У 1994 році захистив докторську дисертацію в Київському політехнічному інституті за темою "Компьютерное моделирование процессов методом конечных элементов" та отримав звання професора інформаційних систем. У Хмельницькому національному університеті працює з 1984 року. Є академіком міжнародної академії інформатизації. З 2005 року очолює Кафедру комп'ютерних систем та мереж.</p>
+                    <p>Має більше 150 наукових і учбово-методичних публікацій.</p>
+                    
+                    <div class="about-lector-list">
+                        <h3>Сфера наукової діяльності:</h3>
+                        <ul>
+                            <li>Комп'ютерні мережі.</li>
+                            <li>Паралельні обчислення з використанням технологій MPI, OpenMP, GPU NVIDIA CUDA.</li>
+                        </ul>
+                    </div>
+                    <div class="about-lector-list">
+                        <h3>Напрямок наукової роботи:</h3>
+                        <ul>
+                            <li>Високопродуктивні обчислення для вирішення класу задач лінійної алгебри.</li>
+                            <li>Теорія і практика побудови комп'ютерних мереж на базі стека протоколів ТСР/ІР.</li>
+                        </ul>
+                    </div>
+                    <div class="about-lector-list">
+                        <h3>Основні предмети:</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="lector-2-subjects" class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="glyphicon glyphicon-hand-right"> </span>
+                                                <a href="#collapse-2-1" data-parent="#lector-2-subjects" data-toggle="collapse">Комп'ютерні мережі</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-2-1" class="panel-collapse collapse ">
+                                            <div class="panel-body">
+                                                <p>
+                                                    Інфо про предмет.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="glyphicon glyphicon-hand-right"> </span>
+                                                <a href="#collapse-2-2" data-parent="#lector-2-subjects" data-toggle="collapse">Теорія проектування комп'ютерних мереж і систем.</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-2-2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>Основна увага у даній дисципліні приділяється вивченню функціонування сучасних комп'ютерних мережних пристроїв і створенню мереж на основі канального і мережного рівня моделі OSI. Дається поглиблене уявлення про пристрій, роботу і програмне забезпечення керованих комутаторів 2-го і 3-го рівнів комутації. Вивчаються додаткові функції керованих комутаторів, зокрема віртуальні мережі, керування трафиком, фільтрація трафика, приорітизація трафика, агрегування каналу.</p>
+
+                                                <p>Після вивчення даної дисципліни разом з дисципліною "комп'ютерні мережі" фахівець у стані проектувати й адмініструвати як локальні так і складені мережі рівня масштабу підприємства. Одержує практичні знання для організації доступу мережі рівня підприємства в мережу Internet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <span class="glyphicon glyphicon-hand-right"> </span>
+                                                <a href="#collapse-2-3" data-parent="#lector-2-subjects" data-toggle="collapse">Високопродуктивні обчислювальні системи</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-2-3" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>
+                                                    Інфо про предмет.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-lector-list">
+                        <h3>Останні публікації:</h3>
+                        <ul>
+                            <li>Мясищев А.А. - Сопоставление производительностей GPU Tesla C2075, GeForce 480GTX с 6-и ядерным CPU AMD при решении систем линейных уравнений, 2012г.</li>
+                            <li>О.А. Мясіщев, А.В.Джулій, Показники надійності захисту інформації у випадку системи з кінцевим числом діалогових каналів // ?Вимірювальна та обчислювальна техніка в технологічних процесах “, №2 (36), 2010. – Хмельницький: ХНУ, 2011. – с.118-124 </li>
+                            <li>Мясіщев О.А., Джулій А.В. Моделі оцінки захищеності інформації програмно - апаратною системою захисту / О.А. Мясіщев, А.В. Джулій // Зб. наук. праць Військового інституту Київського НУ ім. 
+  Тараса Шевченко. – К.: ВІКНУ, 2010. – Вип. №27. – С. 130–135. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <footer id="footer" class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5 col-md-3 col-lg-4">
+            <div class="icon-bar-footer">
+                    <a class="social-link-footer" href="https://plus.google.com/100534378521830550230/about" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    <a class="social-link-footer" href="https://www.facebook.com/khnuksm" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a class="social-link-footer" href="https://twitter.com/ksm_khnu" target="_blank"><i class="fa fa-twitter-square"></i></a>             
+                    <a class="social-link-footer" href="https://www.youtube.com/channel/UCl4U3G90mB4lqu9_Ao6s2QA" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a class="social-link-footer" href="http://vk.com/club95427377" target="_blank"><i class="fa fa-vk"></i></a>    
+            </div>
+            </div>
+            <div class="col-xs- col-sm-7 col-md-9 col-lg-4">
+            <p><a href="index.html">Головна</a> | <a href="index.html">Про кафедру</a> | <a href="index.html">Контакти</a></p>
+            <p>© Кафедра комп'ютерних систем та мереж 2015.</p>
+          </div>
+        </div>
+    </footer>
+
+    <!-- Share icons -->
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MatchHeight -->
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <!-- Own scripts -->
+    <script type="text/javascript" src="js/scripts.js"></script> 
+</body>
+</html>
